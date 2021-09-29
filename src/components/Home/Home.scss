@@ -1,0 +1,27 @@
+.home {
+  min-height: 640px;
+  height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+
+  &__buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 600px;
+
+    a {
+      text-decoration: none;
+
+      button {
+        width: 220px;
+        height: 50px;
+        padding: 10px 15px;
+        //font-family: $font-family-btn !important;
+        font-weight: 600 !important;
+      }
+    }
+  }
+}

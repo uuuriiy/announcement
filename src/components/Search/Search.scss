@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  button {
+    margin-top: 15px!important;
+  }
+
+  &__announcementsContainer {
+    margin-top: 20px;
+  }
+}
